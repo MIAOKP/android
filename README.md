@@ -25,8 +25,8 @@ Building
 
 After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
 
-    . build/envsetup.sh
-    brunch
+    1:source build/envsetup.sh
 
+    2:lunch 
 
-
+    3:make bacon
