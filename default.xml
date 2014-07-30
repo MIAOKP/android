@@ -17,11 +17,11 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
-<remote  name="MIAOKP"
+  <remote  name="MIAOKP"
            fetch="https://github.com" />
 
-  <default revision="refs/heads/kitkat"
-           remote="MIAOKP"
+  <default revision="refs/tags/android-4.4.4_r2"
+           remote="aosp"
            sync-c="true"
            sync-j="4" />
 
