@@ -17,7 +17,7 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
-  <remote  name="MIAOKP"
+  <remote  name="github"
            fetch="https://github.com" />
 
   <default revision="refs/tags/android-4.4.4_r2"
@@ -476,39 +476,39 @@
   <!-- =============== miaokp Repo Start ================ -->
   
   <!-- miaokp android_manifest Start -->
-  <project path="android" name="MIAOKP/android" remote="MIAOKP" revision="kitkat" />
+  <project path="android" name="MIAOKP/android" remote="github" revision="kitkat" />
   <!-- miaokp android_manifest End -->
   
   <!-- miaokp Frameworks Start -->
-  <project path="frameworks/av" name="MIAOKP/android_frameworks_av" remote="MIAOKP" revision="kitkat" groups="pdk" />
-  <project path="frameworks/base" name="MIAOKP/android_frameworks_base" remote="MIAOKP" revision="kitkat" />
-  <project path="frameworks/native" name="MIAOKP/android_frameworks_native" remote="MIAOKP" revision="kitkat" groups="pdk" />
+  <project path="frameworks/av" name="MIAOKP/android_frameworks_av" remote="github" revision="kitkat" groups="pdk" />
+  <project path="frameworks/base" name="MIAOKP/android_frameworks_base" remote="github" revision="kitkat" />
+  <project path="frameworks/native" name="MIAOKP/android_frameworks_native" remote="github" revision="kitkat" groups="pdk" />
   <!-- miaokp Frameworks End -->
   
   <!-- miaokp System Start -->
-  <project path="system/core" name="AOKP/system_core" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/core" name="MIAOKP/system_core" remote="github" revision="kitkat" groups="pdk" />
   <!-- miaokp System End -->
   
   <!-- xiaomi for miaokp hardwerd Start -->
-  <project path="hardware/qcom/display-legacy" name="MIAOKP/android_hardware_qcom_display-legacy"  remote="MIAOKP" revision="kitkat" />
-  <project path="hardware/qcom/media-legacy" name="MIAOKP/android_hardware_qcom_media-legacy"  remote="MIAOKP" revision="kitkat" />
-  <project path="hardware/libhardware_legacy" name="MIAOKP/android_hardware_libhardware_legacy" groups="pdk" remote="MIAOKP" revision="kitkat" />
+  <project path="hardware/qcom/display-legacy" name="MIAOKP/android_hardware_qcom_display-legacy"  remote="github" revision="kitkat" />
+  <project path="hardware/qcom/media-legacy" name="MIAOKP/android_hardware_qcom_media-legacy"  remote="github" revision="kitkat" />
+  <project path="hardware/libhardware_legacy" name="MIAOKP/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="kitkat" />
   <!-- xiaomi for miaokp hardwerd End -->
   
   <!-- xiaomi for miaokp device Start -->
-  <project path="device/xiaomi/mione_plus" name="MIAOKP/android_device_xiaomi_mione_plus" remote="MIAOKP" revision="kitkat" />
-  <project path="device/xiaomi/msm8660-common" name="MIAOKP/android_device_xiaomi_msm8660-common" remote="MIAOKP" revision="kitkat" />
+  <project path="device/xiaomi/mione_plus" name="MIAOKP/android_device_xiaomi_mione_plus" remote="github" revision="kitkat" />
+  <project path="device/xiaomi/msm8660-common" name="MIAOKP/android_device_xiaomi_msm8660-common" remote="github" revision="kitkat" />
   <!-- xiaomi for miaokp device End -->
   
   <!-- xiaomi for miaokp vendor Start -->
-  <project path="vendor/aokp" name="MIAOKP/android_vendor_aokp" remote="MIAOKP" revision="kitkat" />
-  <project path="vendor/xiaomi/mione_plus" name="MIAOKP/android_vendor_xiaomi_mione_plus" remote="MIAOKP" revision="kitkat" />
+  <project path="vendor/aokp" name="MIAOKP/android_vendor_aokp" remote="github" revision="kitkat" />
+  <project path="vendor/xiaomi/mione_plus" name="MIAOKP/android_vendor_xiaomi_mione_plus" remote="github" revision="kitkat" />
   <!-- xiaomi for miaokp vendor End -->
   
   <!-- miaokp Packages Apps Start -->
-  <project path="packages/apps/Dialer" name="MIAOKP/android_packages_apps_Dialer" remote="MIAOKP" revision="kitkat" />
-  <project path="packages/apps/OmniSwitch" name="MIAOKP/android_packages_apps_OmniSwitch" remote="MIAOKP" revision="kitkat" />
-  <project path="packages/apps/Settings" name="MIAOKP/android_packages_apps_Settings" remote="MIAOKP" revision="kitkat" />
+  <project path="packages/apps/Dialer" name="MIAOKP/android_packages_apps_Dialer" remote="github" revision="kitkat" />
+  <project path="packages/apps/OmniSwitch" name="MIAOKP/android_packages_apps_OmniSwitch" remote="github" revision="kitkat" />
+  <project path="packages/apps/Settings" name="MIAOKP/android_packages_apps_Settings" remote="github" revision="kitkat" />
   <!-- miaokp Packages Apps End -->
   
 </manifest>
