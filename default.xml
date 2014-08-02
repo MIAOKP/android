@@ -501,7 +501,7 @@
   <!-- xiaomi for miaokp device End -->
   
   <!-- xiaomi for miaokp vendor Start -->
-  <project path="vendor/aokp" name="MIAOKP/android_vendor_aokp" remote="github" revision="kitkat" />
+  <project path="vendor/aokp" name="MIAOKP/android_vendor_miaokp" remote="github" revision="kitkat" />
   <project path="vendor/xiaomi/mione_plus" name="MIAOKP/android_vendor_xiaomi_mione_plus" remote="github" revision="kitkat" />
   <!-- xiaomi for miaokp vendor End -->
   
