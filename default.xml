@@ -25,7 +25,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <copyfile src="core/root.mk" dest="Makefile" />
+   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="AOKP/art" remote="aokp" revision="kitkat" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
