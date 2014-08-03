@@ -25,8 +25,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="AOKP/build" remote="aokp" revision="kitkat" groups="pdk">
-    <copyfile src="core/root.mk" dest="Makefile" />
+  <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="AOKP/art" remote="aokp" revision="kitkat" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
@@ -478,6 +477,8 @@
   <project path="android" name="MIAOKP/android" remote="github" revision="kitkat" />
   <!-- miaokp android_manifest End -->
   
+  <project path="build" name="MIAOKP/build" remote="github" revision="kitkat" groups="pdk">
+
   <!-- miaokp Frameworks Start -->
   <project path="frameworks/av" name="MIAOKP/android_frameworks_av" remote="github" revision="kitkat" groups="pdk" />
   <project path="frameworks/base" name="MIAOKP/android_frameworks_base" remote="github" revision="kitkat" />
