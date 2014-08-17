@@ -114,7 +114,7 @@
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="external/e2fsprogs" name=""CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-11.0"  />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -492,25 +492,24 @@
   <!-- miaokp System End -->
   
   <!-- xiaomi for miaokp hardwerd Start -->
-  <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy"  remote="github" revision="kk" />
-  <project path="hardware/qcom/display-legacy-caf" name="LOSP/hardware_qcom_display-legacy-caf"  remote="github" revision="kk" />
-  <project path="hardware/qcom/media-legacy" name="LOSP/android_hardware_qcom_media-legacy"  remote="github" revision="kk" />
+  <project path="hardware/qcom/display-legacy" name="MIAOKP/android_hardware_qcom_display-legacy"  remote="github" revision="kitkat" />
+  <project path="hardware/qcom/display-legacy-caf" name="MIAOKP/android_hardware_qcom_display-legacy-caf"  remote="github" revision="kitkat" />
+  <project path="hardware/qcom/media-legacy" name="MIAOKP/android_hardware_qcom_media-legacy"  remote="github" revision="kitkat" />
   <project path="hardware/libhardware_legacy" name="MIAOKP/android_hardware_libhardware_legacy"  remote="github" revision="kitkat" groups="pdk" />
   <!-- xiaomi for miaokp hardwerd End -->
   
   <!-- xiaomi for miaokp device Start -->
-  <project path="device/xiaomi/mione_plus" name="LOSP/android_device_xiaomi_mione_plus" remote="github" revision="kk" />
-  <project path="device/xiaomi/msm8660-common" name="LOSP/android_device_xiaomi_msm8660-common" remote="github" revision="kk" />
+  <project path="device/xiaomi/mione_plus" name="MIAOKP/android_device_xiaomi_mione_plus" remote="github" revision="kitkat" />
+  <project path="device/xiaomi/msm8660-common" name="MIAOKP/android_device_xiaomi_msm8660-common" remote="github" revision="kitkat" />
   <!-- xiaomi for miaokp device End -->
   
   <!-- xiaomi for miaokp vendor Start -->
   <project path="vendor/aokp" name="MIAOKP/android_vendor_miaokp" remote="github" revision="kitkat" />
-  <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" remote="github" revision="kk" />
+  <project path="vendor/xiaomi" name="MIAOKP/android_vendor_xiaomi " remote="github" revision="kitkat" />
   <!-- xiaomi for miaokp vendor End -->
   
   <!-- miaokp Packages Apps Start -->
   <project path="packages/apps/Dialer" name="AOKP/packages_apps_Dialer" remote="aokp" revision="kitkat" />
-  <project path="packages/apps/OmniSwitch" name="MIAOKP/android_packages_apps_OmniSwitch" remote="github" revision="kitkat" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="kitkat" />
   <!-- miaokp Packages Apps End -->
 </manifest>
